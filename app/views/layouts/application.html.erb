@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TRELORA Leaderboard</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="background">
+    <div class="background-overlay">
+
+    <div class="ui text container">
+      <div href="#" class="ui centered header">
+        <br>
+        <img class="ui small image" src="https://www.mytrelora.com/images/trelora.png">
+      </div>
+  </div>
+
+
+<div class="ui container" id="standard-font">
+  <br>
+  <%= yield %>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
